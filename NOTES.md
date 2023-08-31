@@ -77,3 +77,4 @@ You are on the final square so the game ends. Return 10
 ## Plans
 
 - ✅ ' dice = [2,1,5,1,5,4] and board = [0,0,3,0,0,0,0,-2,0,0,0] should return 10'
+- ⚠  ' dice = [2,1,5] and board = [0,0,3,0,0,0,0,-2,0,0,0] should return 6'
