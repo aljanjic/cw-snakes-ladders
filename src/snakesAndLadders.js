@@ -1,4 +1,4 @@
-function snakesAndLadders() {
+function snakesAndLadders(board, dice) {
   return 'snakesAndLadders';
 }
 
