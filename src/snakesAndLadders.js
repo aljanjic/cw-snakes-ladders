@@ -7,13 +7,9 @@ function snakesAndLadders(board, dice) {
   let currentField = 0;
 
   dice.forEach(diceValue => {
-    console.log('Current field:', currentField)
-    console.log('Dice value: ', diceValue)
     if (currentField + diceValue < board.length){
       currentField += diceValue;
-      console.log('Current field after throw:', currentField)
       if(board[currentField] !== 0 ) {
-        console.log('There was a value on the board, value: ', board[currentField])
         currentField += board[currentField];
       }
     }
